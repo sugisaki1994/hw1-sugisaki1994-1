@@ -284,7 +284,11 @@ struct ContentView: View {
                     
                     
                     Path{(path)in
-                        
+                        path.move(to: CGPoint(x:172,y:275))
+                        path.addLine(to: CGPoint(x:155,y:280))
+                        path.addLine(to: CGPoint(x:130,y:280))
+                        path.addLine(to: CGPoint(x:130,y:300))
+                        path.addLine(to: CGPoint(x:190,y:300))
                     }
                     
                 }
